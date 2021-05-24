@@ -1,0 +1,5 @@
+f=open("deep.txt","r+")
+print(f.read())
+f.write("\nThank you")
+print(f.read())
+f.close()
